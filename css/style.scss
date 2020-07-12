@@ -164,20 +164,29 @@ body {
     display: flex;
     width: 4.4em;
     height: 2.2em;
-    background-color: white;
-    display: flex;
     margin: 0 auto;
-    justify-content: space-around;
-    align-items: center;
-    border-radius: 20px;
     margin-top: -18px;
-
+    border-radius: 20px;
+    background-color: white;
     box-shadow: 0 10px 50px rgba($color: #000000, $alpha: 0.25);
-
+    user-select: none;
+    
     .btn {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
         img {
+            
             width: 9px;
             height: 12px;
+        }
+
+        &:hover {
+            border-radius: 20px;
+            background-color: #E8E8F0;
         }
     }
 
