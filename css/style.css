@@ -40,7 +40,7 @@ body {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
-    margin-top: 10vh;
+    margin-top: 12vh;
   }
 }
 
